@@ -4,7 +4,8 @@ The purpose of this project is to demonstrate your ability to collect, work with
 ## run_analysis.R file
 
 
-## Human Activity Recognition Using Smartphones Dataset(Data Set Description)
+## Data Set Description
+# Human Activity Recognition Using Smartphones Dataset
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. 
