@@ -4,7 +4,7 @@
 # The goal of the project : Getting,Cleaning the data set, 
 # Creating a tidy data set and Uploading it.
 #
-# This program consists of the five parts(procesures).
+# This program consists of the five parts(procedures).
 #
 # 1. Loading dependencies(packages).
 # 2. Imports data files related to the project.
@@ -67,7 +67,7 @@ names(test_x_data) = features_name
 names(train_x_data) = features_name
 
 ##### Filtering only mean and std columns
-key_features <- grepl("mean|std",features)
+key_features <- grepl("mean|std",features_name)
 test_x_data_filtered = test_x_data[,key_features]
 train_x_data_filtered = train_x_data[,key_features]
 
@@ -82,8 +82,9 @@ names(subject_test_data) = "SUBJECT_ID"
 names(subject_train_data) = "SUBJECT_ID"
 
 ##### Combines all columns altogether
-all_test_data = cbind(as.data.table(subject_test_data),test_y_data,test_x_data)
-all_train_data = cbind(as.data.table(subject_train_data),train_y_data,train_x_data)
+#View(test_x_data_filtered)
+all_test_data = cbind(as.data.table(subject_test_data),test_y_data,test_x_data_filtered)
+all_train_data = cbind(as.data.table(subject_train_data),train_y_data,train_x_data_filtered)
 
 #######################################################################################
 #
