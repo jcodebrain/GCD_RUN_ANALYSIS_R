@@ -3,7 +3,9 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 ## run_analysis.R file
 
->The goal of this script : Getting,Cleaning the data set,Creating a tidy data set and >Uploading it. This program consists of the five parts(procesures).
+> The goal of this script : Getting,Cleaning the data set,
+> Creating a tidy data set and Uploading it. 
+> This program consists of the five parts(procesures).
 
 1. Loading dependencies(packages).
 2. Imports data files related to the project.
