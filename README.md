@@ -3,9 +3,16 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 ## run_analysis.R file
 
+>The goal of this script : Getting,Cleaning the data set,Creating a tidy data set and >Uploading it. This program consists of the five parts(procesures).
+
+1. Loading dependencies(packages).
+2. Imports data files related to the project.
+3. Extracts only the measurements on the mean and standard deviation & Naming them.
+4. Merges the training and the test data set to create one data set.
+5. Create a independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Data Set Description
-# Human Activity Recognition Using Smartphones Dataset
+[Human Activity Recognition Using Smartphones Dataset]
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. 
